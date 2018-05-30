@@ -1,0 +1,77 @@
+html, body {
+	font-family: 'Arial', sans-serif;
+}
+
+/* List container */
+.container {
+	background: #fff;
+	border: 1px solid #000;
+	width: 300px;
+	padding: 20px;
+	margin: 100px auto;
+}
+
+/*. List title */
+h1 {
+	margin: 5px 0px;
+}
+
+/* Form input */
+input {
+	border:1px solid ;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+/* Remove yellow background on input autofill */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+/* Strike through to completed task */
+.done {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+/* Button */
+button {
+	background: #8EF474;
+	border-radius: 2px;
+	border: 1px solid #8EF474;
+}
+
+button:hover {
+	background: #7CD366;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+/* Todo ul li */
+#todos {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#todos li {
+	margin: 15px 0;
+}
+
+/* checkbox */
+.completeItem {
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

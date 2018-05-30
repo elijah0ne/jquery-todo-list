@@ -3,9 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To Do List</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<div class="container">
+		<h1>Todo.</h1>
+		<form name="toDolist">
+			<input type="text" id="newTodo" onfocus="this.value=''" value="Take out trash">
+			<button type="button" id="addItem">Add to do</button>
+		</form>
+		<ul id="todos">
+		</ul>
+	</div>
 </body>
 </html>
